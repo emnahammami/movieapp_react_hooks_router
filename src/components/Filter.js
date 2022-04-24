@@ -20,7 +20,7 @@ export default function Filter({ChangeTitle,titlee ,ChangeRate,AddMovie}) {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Add Movie</Modal.Title>
         </Modal.Header>
         <label htmlFor="">movie title</label>
         <input
