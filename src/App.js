@@ -28,7 +28,20 @@ return (
 
 
 
-  <><Routes><Route
+  <><Routes>
+    <Route
+    path='/movieapp_react_hooks_router'
+    element={<div>
+      <Filter ChangeTitle={ChangeTitle} titlee={titler} ChangeRate={ChangeRate} AddMovie={AddMovie} />
+
+      <MovieList
+        movies={movies.filter((movie) => movie.title.trim().toLowerCase().includes(titler.trim().toLowerCase()) && movie.rate >= rater
+        )} />
+    </div>} />
+    
+    
+    
+    <Route
     path='/'
     element={<div>
       <Filter ChangeTitle={ChangeTitle} titlee={titler} ChangeRate={ChangeRate} AddMovie={AddMovie} />
