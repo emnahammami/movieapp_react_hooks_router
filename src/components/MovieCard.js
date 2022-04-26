@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import { Button,Card } from "react-bootstrap";
 import ReactStars from "react-star-rating-component";
 const MovieCard = ({ movie }) => {
@@ -20,7 +20,7 @@ const MovieCard = ({ movie }) => {
               activeColor="#ffd700"
             />
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Link to={`/Infos/${movie.id}`}> <Button variant="primary">Go somewhere</Button></Link>  
         </Card.Body>
       </Card>
     

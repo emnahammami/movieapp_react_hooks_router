@@ -2,7 +2,7 @@
   "name": "react_hooks_final",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://emnahammami.github.io/movieapp_react_hooks",
+  "homepage": "https://emnahammami.github.io/movieapp_react_hooks_router",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -12,6 +12,7 @@
     "react-bootstrap": "^2.3.0",
     "react-dom": "^18.0.0",
     "react-rating-stars-component": "^2.2.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-star-rating-component": "^1.4.1",
     "react-stars-rating": "^0.0.5",
